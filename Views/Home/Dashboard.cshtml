@@ -1,0 +1,105 @@
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Dashboard";
+}
+
+<div class="dashboard-container">
+    <!-- Stats Cards -->
+    <div class="stats-grid">
+        <div class="stat-card stat-available">
+            <div class="stat-icon">
+                <i class="fas fa-door-open"></i>
+            </div>
+            <div class="stat-content">
+                <h3 id="availableRooms">0</h3>
+                <p>Phòng trống</p>
+            </div>
+        </div>
+
+        <div class="stat-card stat-occupied">
+            <div class="stat-icon">
+                <i class="fas fa-bed"></i>
+            </div>
+            <div class="stat-content">
+                <h3 id="occupiedRooms">0</h3>
+                <p>Phòng đang sử dụng</p>
+            </div>
+        </div>
+
+        <div class="stat-card stat-bookings">
+            <div class="stat-icon">
+                <i class="fas fa-calendar-check"></i>
+            </div>
+            <div class="stat-content">
+                <h3 id="newBookings">0</h3>
+                <p>Đặt phòng mới</p>
+            </div>
+        </div>
+
+        <div class="stat-card stat-revenue">
+            <div class="stat-icon">
+                <i class="fas fa-dollar-sign"></i>
+            </div>
+            <div class="stat-content">
+                <h3 id="revenue">0 VNĐ</h3>
+                <p>Doanh thu dự kiến</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Charts and Tables -->
+    <div class="dashboard-row">
+        <!-- Room Occupancy Chart -->
+        <div class="dashboard-card card-large">
+            <div class="card-header">
+                <h3><i class="fas fa-chart-pie"></i> Tỷ lệ lấp đầy phòng</h3>
+            </div>
+            <div class="card-body">
+                <div id="roomOccupancyChart"></div>
+            </div>
+        </div>
+
+        <!-- Room Status -->
+        <div class="dashboard-card card-medium">
+            <div class="card-header">
+                <h3><i class="fas fa-info-circle"></i> Trạng thái phòng</h3>
+            </div>
+            <div class="card-body">
+                <div class="status-list" id="roomStatusList"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Recent Bookings -->
+    <div class="dashboard-card">
+        <div class="card-header">
+            <h3><i class="fas fa-clock"></i> Đặt phòng gần đây</h3>
+            <a href="/Home/Bookings" class="btn-link">Xem tất cả</a>
+        </div>
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="data-table">
+                    <thead>
+                        <tr>
+                            <th>Khách hàng</th>
+                            <th>Phòng</th>
+                            <th>Ngày nhận</th>
+                            <th>Ngày trả</th>
+                            <th>Trạng thái</th>
+                            <th>Số tiền</th>
+                        </tr>
+                    </thead>
+                    <tbody id="recentBookingsTable">
+                        <tr>
+                            <td colspan="6" class="text-center">Đang tải...</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="~/js/dashboard.js"></script>
+}

@@ -1,0 +1,118 @@
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Quản lý dịch vụ";
+}
+
+<div class="page-header">
+    <h1><i class="fas fa-concierge-bell"></i> Quản lý dịch vụ</h1>
+    <button class="btn btn-primary" onclick="openAddServiceModal()">
+        <i class="fas fa-plus"></i> Thêm dịch vụ
+    </button>
+</div>
+
+<!-- Category Filter -->
+<div class="filter-bar">
+    <div class="filter-group">
+        <label>Danh mục:</label>
+        <select id="categoryFilter" onchange="filterServices()">
+            <option value="">Tất cả</option>
+            <option value="0">Ăn uống</option>
+            <option value="1">Đưa đón</option>
+            <option value="2">Spa</option>
+            <option value="3">Giặt ủi</option>
+            <option value="4">Dịch vụ phòng</option>
+            <option value="5">Giải trí</option>
+            <option value="6">Hội nghị</option>
+        </select>
+    </div>
+    <div class="filter-group">
+        <label>Tình trạng:</label>
+        <select id="statusFilter" onchange="filterServices()">
+            <option value="">Tất cả</option>
+            <option value="0">Có sẵn</option>
+            <option value="1">Không có sẵn</option>
+            <option value="2">Yêu cầu đặt trước</option>
+        </select>
+    </div>
+</div>
+
+<!-- Services Grid -->
+<div class="services-grid" id="servicesGrid">
+    <div class="loading-spinner">
+        <i class="fas fa-spinner fa-spin"></i>
+        <p>Đang tải...</p>
+    </div>
+</div>
+
+<!-- Add/Edit Service Modal -->
+<div id="serviceModal" class="modal">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h2 id="serviceModalTitle">Thêm dịch vụ mới</h2>
+            <button class="modal-close" onclick="closeServiceModal()">&times;</button>
+        </div>
+        <div class="modal-body">
+            <form id="serviceForm">
+                <input type="hidden" id="serviceId">
+                <div class="form-group">
+                    <label>Tên dịch vụ <span class="required">*</span></label>
+                    <input type="text" id="serviceName" required>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>Danh mục <span class="required">*</span></label>
+                        <select id="serviceCategory" required>
+                            <option value="0">Ăn uống</option>
+                            <option value="1">Đưa đón</option>
+                            <option value="2">Spa</option>
+                            <option value="3">Giặt ủi</option>
+                            <option value="4">Dịch vụ phòng</option>
+                            <option value="5">Giải trí</option>
+                            <option value="6">Hội nghị</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Tình trạng</label>
+                        <select id="serviceStatus">
+                            <option value="0">Có sẵn</option>
+                            <option value="1">Không có sẵn</option>
+                            <option value="2">Yêu cầu đặt trước</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>Giá (VNĐ) <span class="required">*</span></label>
+                        <input type="number" id="servicePrice" required min="0">
+                    </div>
+                    <div class="form-group">
+                        <label>Đơn vị</label>
+                        <input type="text" id="serviceUnit" placeholder="suất, giờ, lần...">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>Thời gian ước tính (phút)</label>
+                    <input type="number" id="estimatedDuration" min="0">
+                </div>
+                <div class="form-group">
+                    <label>Mô tả</label>
+                    <textarea id="serviceDescription" rows="3"></textarea>
+                </div>
+                <div class="form-group">
+                    <label class="checkbox-label">
+                        <input type="checkbox" id="isPopular">
+                        Dịch vụ phổ biến
+                    </label>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" onclick="closeServiceModal()">Hủy</button>
+                    <button type="submit" class="btn btn-primary">Lưu</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="~/js/services.js"></script>
+}

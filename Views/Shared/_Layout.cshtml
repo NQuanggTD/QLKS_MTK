@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"] - Hệ Thống Quản Lý Khách Sạn</title>
+    <link rel="stylesheet" href="~/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="sidebar-header" onclick="window.location.href='/Home/About'" style="cursor: pointer;">
+                <i class="fas fa-hotel"></i>
+                <h2>Hotel's Wangg</h2>
+            </div>
+            <nav class="sidebar-nav">
+                <a href="/Home/Dashboard" class="nav-item" data-page="dashboard">
+                    <i class="fas fa-chart-line"></i>
+                    <span>Dashboard</span>
+                </a>
+                <a href="/Home/Rooms" class="nav-item" data-page="rooms">
+                    <i class="fas fa-bed"></i>
+                    <span>Quản lý phòng</span>
+                </a>
+                <a href="/Home/Bookings" class="nav-item" data-page="bookings">
+                    <i class="fas fa-calendar-check"></i>
+                    <span>Đặt phòng</span>
+                </a>
+                <a href="/Home/Customers" class="nav-item" data-page="customers">
+                    <i class="fas fa-users"></i>
+                    <span>Khách hàng</span>
+                </a>
+                <a href="/Home/Services" class="nav-item" data-page="services">
+                    <i class="fas fa-concierge-bell"></i>
+                    <span>Dịch vụ</span>
+                </a>
+                <a href="/Home/Settings" class="nav-item" data-page="settings">
+                    <i class="fas fa-cog"></i>
+                    <span>Cài đặt</span>
+                </a>
+            </nav>
+            <div class="sidebar-footer">
+                <div class="user-info">
+                    <div id="userAvatar" class="user-avatar">
+                        <i class="fas fa-user-circle"></i>
+                    </div>
+                    <div class="user-details">
+                        <span class="user-name" id="sidebarUserName">Admin</span>
+                        <span class="user-role" id="sidebarUserRole">Quản trị viên</span>
+                    </div>
+                </div>
+                <div class="admin-actions">
+                    <button class="admin-btn" onclick="openAdminProfile()" title="Hồ sơ">
+                        <i class="fas fa-user-cog"></i>
+                    </button>
+                    <button class="admin-btn" onclick="openAdminSettings()" title="Cài đặt Admin">
+                        <i class="fas fa-tools"></i>
+                    </button>
+                    <button class="admin-btn btn-logout" onclick="confirmLogout()" title="Đăng xuất">
+                        <i class="fas fa-sign-out-alt"></i>
+                    </button>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Top Bar -->
+            <header class="top-bar">
+                <div class="search-box">
+                    <i class="fas fa-search"></i>
+                    <input type="text" id="globalSearch" placeholder="Tìm kiếm phòng, khách hàng, dịch vụ...">
+                </div>
+                <div class="top-bar-actions">
+                    <button class="icon-btn" title="Thông báo" onclick="toggleNotificationPanel()">
+                        <i class="fas fa-bell"></i>
+                        <span class="badge" style="display: none;">0</span>
+                    </button>
+                    <button class="icon-btn" title="Cài đặt" onclick="window.location.href='/Home/Settings'">
+                        <i class="fas fa-cog"></i>
+                    </button>
+                </div>
+            </header>
+
+            <!-- Page Content -->
+            <div class="page-content">
+                @RenderBody()
+            </div>
+        </main>
+    </div>
+
+    <script src="~/js/app.js"></script>
+    <script src="~/js/notifications.js"></script>
+    <script src="~/js/pricing.js"></script>
+    <script src="~/js/admin.js"></script>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

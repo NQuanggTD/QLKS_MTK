@@ -1,0 +1,212 @@
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Cài đặt";
+}
+
+<div class="page-header">
+    <h1><i class="fas fa-cog"></i> Cài đặt hệ thống</h1>
+    <button class="btn btn-secondary" onclick="resetSettings()">
+        <i class="fas fa-undo"></i> Khôi phục mặc định
+    </button>
+</div>
+
+<div class="settings-container">
+    <!-- Hotel Information -->
+    <div class="dashboard-card">
+        <div class="card-header">
+            <h3><i class="fas fa-hotel"></i> Thông tin khách sạn</h3>
+        </div>
+        <div class="card-body">
+            <form id="hotelInfoForm">
+                <div class="form-group">
+                    <label>Tên khách sạn</label>
+                    <input type="text" id="hotelName" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label>Địa chỉ</label>
+                    <input type="text" id="hotelAddress" class="form-control">
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>Số điện thoại</label>
+                        <input type="tel" id="hotelPhone" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label>Email</label>
+                        <input type="email" id="hotelEmail" class="form-control">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Booking Settings -->
+    <div class="dashboard-card">
+        <div class="card-header">
+            <h3><i class="fas fa-calendar-alt"></i> Cài đặt đặt phòng</h3>
+        </div>
+        <div class="card-body">
+            <form id="bookingSettingsForm">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>Giờ nhận phòng</label>
+                        <select id="checkInTime" class="form-control">
+                            <option value="12">12:00</option>
+                            <option value="13">13:00</option>
+                            <option value="14" selected>14:00</option>
+                            <option value="15">15:00</option>
+                            <option value="16">16:00</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Giờ trả phòng</label>
+                        <select id="checkOutTime" class="form-control">
+                            <option value="10">10:00</option>
+                            <option value="11">11:00</option>
+                            <option value="12" selected>12:00</option>
+                            <option value="13">13:00</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>Thời gian hết hạn booking (giờ)</label>
+                        <input type="number" id="bookingExpiryHours" class="form-control" min="1" value="24">
+                    </div>
+                    <div class="form-group">
+                        <label>Tỷ lệ đặt cọc (%)</label>
+                        <input type="number" id="depositPercentage" class="form-control" min="0" max="100" value="30">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Pricing Settings -->
+    <div class="dashboard-card">
+        <div class="card-header">
+            <h3><i class="fas fa-tags"></i> Cài đặt giá & khuyến mãi</h3>
+        </div>
+        <div class="card-body">
+            <form id="pricingSettingsForm">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>Đơn vị tiền tệ</label>
+                        <select id="currency" class="form-control">
+                            <option value="VNĐ" selected>VNĐ (Việt Nam Đồng)</option>
+                            <option value="USD">USD (US Dollar)</option>
+                            <option value="EUR">EUR (Euro)</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Giảm giá VIP (%)</label>
+                        <input type="number" id="vipDiscount" class="form-control" min="0" max="100" step="0.1" value="10">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Display Settings -->
+    <div class="dashboard-card">
+        <div class="card-header">
+            <h3><i class="fas fa-desktop"></i> Cài đặt hiển thị</h3>
+        </div>
+        <div class="card-body">
+            <form id="displaySettingsForm">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>Giao diện</label>
+                        <select id="theme" class="form-control">
+                            <option value="default" selected>Mặc định (Navy & Gold)</option>
+                            <option value="dark">Tối (Dark Mode)</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Ngôn ngữ</label>
+                        <select id="language" class="form-control">
+                            <option value="vi" selected>Tiếng Việt</option>
+                            <option value="en">English</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>Tự động làm mới Dashboard (giây)</label>
+                        <input type="number" id="autoRefreshDashboard" class="form-control" min="10" value="30">
+                    </div>
+                    <div class="form-group">
+                        <label class="checkbox-label">
+                            <input type="checkbox" id="showWelcomeScreen" checked>
+                            Hiển thị màn hình chào mừng
+                        </label>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Notification Settings -->
+    <div class="dashboard-card">
+        <div class="card-header">
+            <h3><i class="fas fa-bell"></i> Cài đặt thông báo</h3>
+        </div>
+        <div class="card-body">
+            <form id="notificationSettingsForm">
+                <div class="form-group">
+                    <label class="checkbox-label">
+                        <input type="checkbox" id="enableEmailNotifications">
+                        Bật thông báo qua Email
+                    </label>
+                    <p class="form-help-text">Gửi email khi có booking mới, check-in, check-out</p>
+                </div>
+                <div class="form-group">
+                    <label class="checkbox-label">
+                        <input type="checkbox" id="enableSMSNotifications">
+                        Bật thông báo qua SMS
+                    </label>
+                    <p class="form-help-text">Gửi SMS xác nhận cho khách hàng</p>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Save Button -->
+    <div class="settings-footer">
+        <button class="btn btn-primary btn-large" onclick="saveSettings()">
+            <i class="fas fa-save"></i> Lưu cài đặt
+        </button>
+    </div>
+</div>
+
+<style>
+.settings-container {
+    max-width: 1000px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+.form-help-text {
+    font-size: 12px;
+    color: var(--text-gray);
+    margin-top: 5px;
+    margin-left: 24px;
+}
+
+.settings-footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    padding-top: 20px;
+}
+</style>
+
+@section Scripts {
+    <script src="~/js/settings.js"></script>
+}
