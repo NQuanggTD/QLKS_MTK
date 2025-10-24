@@ -1,0 +1,36 @@
+[
+  {
+    "Id": "d6206bf8-8cf6-4325-bf47-7f4e4c8ececa",
+    "CustomerId": "7ff270e9-6061-4a8f-b0ff-ba68ec482a62",
+    "RoomId": "848f51ef-714a-4b20-b6bc-2e06c72d7bd0",
+    "CheckInDate": "2025-10-10T22:53:14.0335879+07:00",
+    "CheckOutDate": "2025-10-13T22:53:14.0336198+07:00",
+    "Status": 2,
+    "PaymentMethod": 1,
+    "TotalAmount": 4500000.0,
+    "Deposit": 1500000.0,
+    "NumberOfGuests": 2,
+    "ServiceIds": [],
+    "SpecialRequests": "Phòng tầng cao, view đẹp",
+    "BookingDate": "2025-10-10T22:53:14.0334918+07:00",
+    "ActualCheckInTime": "2025-10-10T22:53:14.034247+07:00",
+    "ActualCheckOutTime": null
+  },
+  {
+    "Id": "72bcd790-90df-49b0-b2a2-8833688f251b",
+    "CustomerId": "72105c0a-25cf-43b2-aa81-428c81377cec",
+    "RoomId": "471bbae1-0cc7-416c-9193-6e27900540d4",
+    "CheckInDate": "2025-10-12T22:53:14.0346845+07:00",
+    "CheckOutDate": "2025-10-15T22:53:14.0346857+07:00",
+    "Status": 1,
+    "PaymentMethod": 0,
+    "TotalAmount": 2400000.0,
+    "Deposit": 400000.0,
+    "NumberOfGuests": 2,
+    "ServiceIds": [],
+    "SpecialRequests": "Không hút thuốc",
+    "BookingDate": "2025-10-10T22:53:14.0346819+07:00",
+    "ActualCheckInTime": null,
+    "ActualCheckOutTime": null
+  }
+]

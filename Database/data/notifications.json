@@ -1,0 +1,35 @@
+[
+  {
+    "Id": "0eeafa93-5195-43f4-b39c-0c55c738aa85",
+    "Type": 2,
+    "Title": "Phòng cần bảo trì",
+    "Message": "Phòng 103 cần được bảo trì định kỳ",
+    "Icon": "fa-tools",
+    "CreatedDate": "2025-10-10T23:04:33.3022732+07:00",
+    "IsRead": true,
+    "Link": "/Home/Rooms",
+    "RelatedId": ""
+  },
+  {
+    "Id": "d8e3783b-4625-4162-b363-9042c8957f0c",
+    "Type": 0,
+    "Title": "Check-in hôm nay",
+    "Message": "Có 2 khách sẽ check-in trong hôm nay",
+    "Icon": "fa-sign-in-alt",
+    "CreatedDate": "2025-10-10T23:04:33.3022708+07:00",
+    "IsRead": true,
+    "Link": "/Home/Bookings",
+    "RelatedId": ""
+  },
+  {
+    "Id": "3760209b-1e60-49fb-ad20-a5c4da864dd0",
+    "Type": 4,
+    "Title": "Booking mới",
+    "Message": "Có 1 booking mới từ khách hàng Nguyễn Văn An",
+    "Icon": "fa-calendar-check",
+    "CreatedDate": "2025-10-10T23:04:33.302121+07:00",
+    "IsRead": true,
+    "Link": "/Home/Bookings",
+    "RelatedId": ""
+  }
+]

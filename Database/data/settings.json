@@ -1,0 +1,18 @@
+{
+  "HotelName": "Hotel Wnaag",
+  "HotelAddress": "",
+  "HotelPhone": "",
+  "HotelEmail": "",
+  "Currency": "VNĐ",
+  "CheckInTime": 14,
+  "CheckOutTime": 12,
+  "VIPDiscount": 0.1,
+  "EnableEmailNotifications": false,
+  "EnableSMSNotifications": false,
+  "AutoRefreshDashboard": 30,
+  "Theme": "default",
+  "Language": "en",
+  "ShowWelcomeScreen": true,
+  "BookingExpiryHours": 24,
+  "DepositPercentage": 0.3
+}

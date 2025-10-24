@@ -1,0 +1,44 @@
+[
+  {
+    "Id": "7ff270e9-6061-4a8f-b0ff-ba68ec482a62",
+    "FullName": "Nguyễn Văn An",
+    "Email": "nguyenvanan@email.com",
+    "PhoneNumber": "0912345678",
+    "IdentityNumber": "001234567890",
+    "Address": "123 Đường ABC, Quận 1, TP.HCM",
+    "DateOfBirth": "1985-05-15T00:00:00",
+    "Nationality": "Việt Nam",
+    "SpecialNotes": "Khách VIP, ưu tiên phòng view biển",
+    "RegistrationDate": "2025-10-10T22:53:13.8783117+07:00",
+    "IsVIP": true,
+    "BookingHistory": []
+  },
+  {
+    "Id": "72105c0a-25cf-43b2-aa81-428c81377cec",
+    "FullName": "Trần Thị Bình",
+    "Email": "tranthib@email.com",
+    "PhoneNumber": "0987654321",
+    "IdentityNumber": "001234567891",
+    "Address": "456 Đường XYZ, Quận 3, TP.HCM",
+    "DateOfBirth": "1990-08-20T00:00:00",
+    "Nationality": "Việt Nam",
+    "SpecialNotes": "Dị ứng hải sản",
+    "RegistrationDate": "2025-10-10T22:53:13.8785537+07:00",
+    "IsVIP": false,
+    "BookingHistory": []
+  },
+  {
+    "Id": "386f8ca2-3ebe-4569-bcb6-358b9295111b",
+    "FullName": "John Smith",
+    "Email": "johnsmith@email.com",
+    "PhoneNumber": "+84123456789",
+    "IdentityNumber": "P1234567",
+    "Address": "New York, USA",
+    "DateOfBirth": "1982-03-10T00:00:00",
+    "Nationality": "USA",
+    "SpecialNotes": "Vegetarian",
+    "RegistrationDate": "2025-10-10T22:53:13.8785556+07:00",
+    "IsVIP": false,
+    "BookingHistory": []
+  }
+]

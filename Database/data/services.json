@@ -1,0 +1,86 @@
+[
+  {
+    "Id": "c87d5994-54a2-4810-9b68-958b9247dd02",
+    "Name": "Bữa sáng buffet",
+    "Description": "Buffet sáng đa dạng món Á - Âu",
+    "Category": 0,
+    "Price": 150000.0,
+    "Status": 0,
+    "Unit": "suất",
+    "ImageUrl": "/images/services/default.jpg",
+    "EstimatedDuration": 60,
+    "IsPopular": true
+  },
+  {
+    "Id": "f5f0eeb3-87fd-47da-9357-3673381c7c5d",
+    "Name": "Đưa đón sân bay",
+    "Description": "Dịch vụ đưa đón sân bay bằng xe riêng\n",
+    "Category": 1,
+    "Price": 300000.0,
+    "Status": 2,
+    "Unit": "chuyến",
+    "ImageUrl": "/images/services/default.jpg",
+    "EstimatedDuration": 60,
+    "IsPopular": true
+  },
+  {
+    "Id": "6f91b2cc-677f-4354-9a08-9df28ee51547",
+    "Name": "Massage toàn thân",
+    "Description": "Massage thư giãn toàn thân với tinh dầu thiên nhiên",
+    "Category": 2,
+    "Price": 500000.0,
+    "Status": 0,
+    "Unit": "giờ",
+    "ImageUrl": "/images/services/massage.jpg",
+    "EstimatedDuration": 90,
+    "IsPopular": true
+  },
+  {
+    "Id": "63033b72-e97a-4456-b983-c2822eb5d7d4",
+    "Name": "Giặt ủi quần áo",
+    "Description": "Dịch vụ giặt ủi nhanh chóng, chuyên nghiệp",
+    "Category": 3,
+    "Price": 50000.0,
+    "Status": 0,
+    "Unit": "kg",
+    "ImageUrl": "/images/services/laundry.jpg",
+    "EstimatedDuration": 120,
+    "IsPopular": false
+  },
+  {
+    "Id": "8b26828a-8e70-4adf-b049-aef1b18e2278",
+    "Name": "Room Service 24/7",
+    "Description": "Phục vụ đồ ăn uống tận phòng",
+    "Category": 4,
+    "Price": 0.0,
+    "Status": 0,
+    "Unit": "lần",
+    "ImageUrl": "/images/services/room-service.jpg",
+    "EstimatedDuration": 30,
+    "IsPopular": true
+  },
+  {
+    "Id": "09a292e9-0ab2-4e44-8221-69efc085a714",
+    "Name": "Karaoke",
+    "Description": "Phòng karaoke hiện đại với âm thanh đỉnh cao",
+    "Category": 5,
+    "Price": 200000.0,
+    "Status": 2,
+    "Unit": "giờ",
+    "ImageUrl": "/images/services/karaoke.jpg",
+    "EstimatedDuration": 120,
+    "IsPopular": false
+  },
+  {
+    "Id": "676ed2d9-748c-4898-b917-cdd942343073",
+    "Name": "Phòng họp",
+    "Description": "Phòng họp với đầy đủ thiết bị hiện đại",
+    "Category": 6,
+    "Price": 500000.0,
+    "Status": 2,
+    "Unit": "giờ",
+    "ImageUrl": "/images/services/meeting-room.jpg",
+    "EstimatedDuration": 240,
+    "IsPopular": false
+  }
+]

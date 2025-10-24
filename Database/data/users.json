@@ -1,0 +1,197 @@
+[
+  {
+    "Id": "99029bab-ad4c-4257-98fd-e745570dd21a",
+    "Username": "admin",
+    "Password": "S6K94XX10yOORo5uzMIa9NzzWy4FdtxTXoqHOYs1EhrU+sXJpDn98hAoUViTAYky",
+    "FullName": "wang",
+    "Email": "admin@hotelwangg.com",
+    "Phone": "0123456789",
+    "Role": "Admin",
+    "AvatarUrl": "/images/default-avatar.png",
+    "IsActive": true,
+    "CreatedDate": "2025-10-10T23:44:32.4486104+07:00",
+    "LastLoginDate": "2025-10-24T13:44:32.5709584+07:00",
+    "LastLoginIP": null,
+    "TwoFactorEnabled": false,
+    "TwoFactorSecret": null,
+    "LoginHistory": [
+      {
+        "Id": "4d8171ac-23c6-4b00-bfe0-313541df25a5",
+        "LoginTime": "2025-10-24T13:44:32.593845+07:00",
+        "IPAddress": "::1",
+        "Device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+        "Browser": "Chrome",
+        "Success": true
+      },
+      {
+        "Id": "35dd5c34-fc6e-40f0-8eaf-b1fa35b07ad5",
+        "LoginTime": "2025-10-20T00:17:35.6251596+07:00",
+        "IPAddress": "::1",
+        "Device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+        "Browser": "Chrome",
+        "Success": true
+      },
+      {
+        "Id": "134a2247-4901-4597-8a1c-be12aa37fce2",
+        "LoginTime": "2025-10-19T23:55:38.7966448+07:00",
+        "IPAddress": "::1",
+        "Device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+        "Browser": "Chrome",
+        "Success": true
+      },
+      {
+        "Id": "3a1b5adc-5eea-4c34-be9c-7b25472ff83c",
+        "LoginTime": "2025-10-19T23:55:25.3333184+07:00",
+        "IPAddress": "::1",
+        "Device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+        "Browser": "Chrome",
+        "Success": true
+      },
+      {
+        "Id": "aaaa6692-0e56-4826-a7bf-a22ac67a86c6",
+        "LoginTime": "2025-10-19T23:41:22.0801368+07:00",
+        "IPAddress": "::1",
+        "Device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+        "Browser": "Chrome",
+        "Success": true
+      },
+      {
+        "Id": "062675bc-3428-41ee-86a9-b0ca9f20440e",
+        "LoginTime": "2025-10-19T23:25:45.4517858+07:00",
+        "IPAddress": "::1",
+        "Device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+        "Browser": "Chrome",
+        "Success": true
+      },
+      {
+        "Id": "5cba2e2b-8c72-4148-81e6-93be999e9d35",
+        "LoginTime": "2025-10-17T14:16:36.2991632+07:00",
+        "IPAddress": "::1",
+        "Device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+        "Browser": "Chrome",
+        "Success": true
+      },
+      {
+        "Id": "ac0ec973-8e13-4673-8d25-d27b9794412d",
+        "LoginTime": "2025-10-16T08:02:27.3313585+07:00",
+        "IPAddress": "::1",
+        "Device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+        "Browser": "Chrome",
+        "Success": true
+      },
+      {
+        "Id": "1ae24422-859c-47e6-a87c-e5952611904d",
+        "LoginTime": "2025-10-16T08:01:50.8030099+07:00",
+        "IPAddress": "::1",
+        "Device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+        "Browser": "Chrome",
+        "Success": true
+      },
+      {
+        "Id": "b629ecf5-9cdb-4b47-a190-9f264f78c815",
+        "LoginTime": "2025-10-14T09:02:14.1270296+07:00",
+        "IPAddress": "::1",
+        "Device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+        "Browser": "Chrome",
+        "Success": true
+      },
+      {
+        "Id": "58a1c102-3708-4a17-83d3-8cadd95a0e00",
+        "LoginTime": "2025-10-12T00:17:26.8742938+07:00",
+        "IPAddress": "::1",
+        "Device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "Browser": "Chrome",
+        "Success": true
+      },
+      {
+        "Id": "c1fdf71a-d125-411b-9eac-c19f6836a708",
+        "LoginTime": "2025-10-11T23:39:01.6330246+07:00",
+        "IPAddress": "::1",
+        "Device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "Browser": "Chrome",
+        "Success": true
+      },
+      {
+        "Id": "d7f31a92-6d14-417c-bf29-5c08013cb56f",
+        "LoginTime": "2025-10-11T01:50:33.8917918+07:00",
+        "IPAddress": "::1",
+        "Device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "Browser": "Chrome",
+        "Success": true
+      },
+      {
+        "Id": "9fc05e79-d9c0-4cf0-996f-6f07627f1127",
+        "LoginTime": "2025-10-11T01:50:10.126375+07:00",
+        "IPAddress": "::1",
+        "Device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "Browser": "Chrome",
+        "Success": true
+      },
+      {
+        "Id": "499b8a97-c195-4ff1-a3c7-b2e45828ec85",
+        "LoginTime": "2025-10-11T01:35:12.0198009+07:00",
+        "IPAddress": "::1",
+        "Device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "Browser": "Chrome",
+        "Success": true
+      },
+      {
+        "Id": "0815c91f-562e-4e5a-97dd-e77be4e8440e",
+        "LoginTime": "2025-10-11T01:34:34.9977081+07:00",
+        "IPAddress": "::1",
+        "Device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "Browser": "Chrome",
+        "Success": true
+      },
+      {
+        "Id": "4522b225-b6f1-4181-9bd5-b792e648a5a2",
+        "LoginTime": "2025-10-11T01:22:42.5988124+07:00",
+        "IPAddress": "::1",
+        "Device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "Browser": "Chrome",
+        "Success": true
+      },
+      {
+        "Id": "3654267f-4b12-41f8-83f2-ded17423734c",
+        "LoginTime": "2025-10-11T01:18:52.0408862+07:00",
+        "IPAddress": "::1",
+        "Device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "Browser": "Chrome",
+        "Success": true
+      },
+      {
+        "Id": "71ed9feb-1fa4-4931-9c4a-5257f5719514",
+        "LoginTime": "2025-10-11T01:13:00.9562919+07:00",
+        "IPAddress": "::1",
+        "Device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "Browser": "Chrome",
+        "Success": true
+      },
+      {
+        "Id": "969b4b0a-317f-41c3-be10-2b8568c2d271",
+        "LoginTime": "2025-10-11T01:10:27.6330985+07:00",
+        "IPAddress": "::1",
+        "Device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "Browser": "Chrome",
+        "Success": true
+      }
+    ]
+  },
+  {
+    "Id": "4634319e-b2c5-414a-8552-bdf3e37531fe",
+    "Username": "manager",
+    "Password": "LuetDDOFb+chSkVVLmI1LB5ZcTmhcyp5vm46f1eEDlAPn3m3txOhaVZ8NWTEcVbK",
+    "FullName": "Manager",
+    "Email": "manager@hotelwangg.com",
+    "Phone": "0987654321",
+    "Role": "Manager",
+    "AvatarUrl": "/images/default-avatar.png",
+    "IsActive": true,
+    "CreatedDate": "2025-10-10T23:44:32.4985709+07:00",
+    "LastLoginDate": null,
+    "LastLoginIP": null,
+    "TwoFactorEnabled": false,
+    "TwoFactorSecret": null,
+    "LoginHistory": []
+  }
+]

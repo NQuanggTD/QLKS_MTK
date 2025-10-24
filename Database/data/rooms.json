@@ -1,0 +1,119 @@
+[
+  {
+    "Id": "630fac69-2908-4277-ae26-8e515a909e13",
+    "RoomNumber": "101",
+    "Type": 0,
+    "Status": 0,
+    "PricePerNight": 500000.0,
+    "Floor": 1,
+    "MaxOccupancy": 1,
+    "ImageUrl": "/images/rooms/single.jpg",
+    "Description": "Phòng đơn tiện nghi, phù hợp cho khách đi công tác",
+    "Amenities": [
+      "WiFi",
+      "TV",
+      "Điều hòa",
+      "Minibar"
+    ],
+    "LastMaintenanceDate": null
+  },
+  {
+    "Id": "471bbae1-0cc7-416c-9193-6e27900540d4",
+    "RoomNumber": "102",
+    "Type": 1,
+    "Status": 0,
+    "PricePerNight": 800000.0,
+    "Floor": 1,
+    "MaxOccupancy": 2,
+    "ImageUrl": "/images/rooms/double.jpg",
+    "Description": "Phòng đôi rộng rãi với giường king size",
+    "Amenities": [
+      "WiFi",
+      "TV",
+      "Điều hòa",
+      "Minibar",
+      "Ban công"
+    ],
+    "LastMaintenanceDate": null
+  },
+  {
+    "Id": "848f51ef-714a-4b20-b6bc-2e06c72d7bd0",
+    "RoomNumber": "201",
+    "Type": 2,
+    "Status": 1,
+    "PricePerNight": 1500000.0,
+    "Floor": 2,
+    "MaxOccupancy": 3,
+    "ImageUrl": "/images/rooms/suite.jpg",
+    "Description": "Suite sang trọng với phòng khách riêng",
+    "Amenities": [
+      "WiFi",
+      "Smart TV",
+      "Điều hòa",
+      "Minibar",
+      "Ban công",
+      "Bồn tắm"
+    ],
+    "LastMaintenanceDate": null
+  },
+  {
+    "Id": "d7d7d64d-3399-4d93-b259-7ded83cfda09",
+    "RoomNumber": "202",
+    "Type": 3,
+    "Status": 0,
+    "PricePerNight": 2000000.0,
+    "Floor": 2,
+    "MaxOccupancy": 4,
+    "ImageUrl": "/images/rooms/deluxe.jpg",
+    "Description": "Phòng Deluxe cao cấp với view đẹp",
+    "Amenities": [
+      "WiFi",
+      "Smart TV",
+      "Điều hòa",
+      "Minibar",
+      "Ban công",
+      "Bồn tắm",
+      "Bếp nhỏ"
+    ],
+    "LastMaintenanceDate": null
+  },
+  {
+    "Id": "f3ff6581-728f-4a9b-a158-5e4c4b7d177d",
+    "RoomNumber": "301",
+    "Type": 4,
+    "Status": 0,
+    "PricePerNight": 5000000.0,
+    "Floor": 3,
+    "MaxOccupancy": 6,
+    "ImageUrl": "/images/rooms/presidential.jpg",
+    "Description": "Phòng Tổng thống với đầy đủ tiện nghi 5 sao",
+    "Amenities": [
+      "WiFi",
+      "Smart TV",
+      "Điều hòa",
+      "Minibar",
+      "Ban công lớn",
+      "Bồn tắm Jacuzzi",
+      "Phòng khách",
+      "Phòng ăn"
+    ],
+    "LastMaintenanceDate": null
+  },
+  {
+    "Id": "38dd7213-2761-43e8-9298-6fe9638d944c",
+    "RoomNumber": "103",
+    "Type": 0,
+    "Status": 2,
+    "PricePerNight": 500000.0,
+    "Floor": 1,
+    "MaxOccupancy": 1,
+    "ImageUrl": "/images/rooms/single.jpg",
+    "Description": "Phòng đơn đang bảo trì",
+    "Amenities": [
+      "WiFi",
+      "TV",
+      "Điều hòa"
+    ],
+    "LastMaintenanceDate": null
+  }
+]
