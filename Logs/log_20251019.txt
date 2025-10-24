@@ -1,0 +1,21 @@
+[2025-10-19 23:24:53] [INFO] Hotel Management System started successfully
+[2025-10-19 23:25:45] [INFO] Data saved successfully: users.json
+[2025-10-19 23:25:45] [INFO] User logged in successfully: admin
+[2025-10-19 23:25:45] [INFO] Data saved successfully: users.json
+[2025-10-19 23:25:46] [INFO] Generated dashboard data
+[2025-10-19 23:26:16] [INFO] Generated dashboard data
+[2025-10-19 23:28:35] [INFO] Generated dashboard data
+[2025-10-19 23:41:04] [INFO] Hotel Management System started successfully
+[2025-10-19 23:41:22] [INFO] Data saved successfully: users.json
+[2025-10-19 23:41:22] [INFO] User logged in successfully: admin
+[2025-10-19 23:41:22] [INFO] Data saved successfully: users.json
+[2025-10-19 23:41:23] [INFO] Generated dashboard data
+[2025-10-19 23:55:13] [INFO] Hotel Management System started successfully
+[2025-10-19 23:55:25] [INFO] Data saved successfully: users.json
+[2025-10-19 23:55:25] [INFO] User logged in successfully: admin
+[2025-10-19 23:55:25] [INFO] Data saved successfully: users.json
+[2025-10-19 23:55:26] [INFO] Generated dashboard data
+[2025-10-19 23:55:38] [INFO] Data saved successfully: users.json
+[2025-10-19 23:55:38] [INFO] User logged in successfully: admin
+[2025-10-19 23:55:38] [INFO] Data saved successfully: users.json
+[2025-10-19 23:55:40] [INFO] Generated dashboard data

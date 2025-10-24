@@ -1,0 +1,6 @@
+[2025-10-17 14:16:22] [INFO] Hotel Management System started successfully
+[2025-10-17 14:16:36] [INFO] Data saved successfully: users.json
+[2025-10-17 14:16:36] [INFO] User logged in successfully: admin
+[2025-10-17 14:16:36] [INFO] Data saved successfully: users.json
+[2025-10-17 14:16:37] [INFO] Generated dashboard data
+[2025-10-17 14:16:43] [INFO] Generated dashboard data
