@@ -1,4 +1,4 @@
-// Admin functions for Hotel's Wangg Management System
+// Admin functions for Wangg's Hotel Management System
 // File: wwwroot/js/admin.js
 
 // Load sidebar user info on page load

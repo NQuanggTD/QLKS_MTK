@@ -1,4 +1,4 @@
-# 🏨 Hotel's Wangg - Hệ Thống Quản Lý Khách Sạn
+# 🏨 Wangg's Hotel - Hệ Thống Quản Lý Khách Sạn
 
 <div align="center">
 
@@ -16,7 +16,7 @@
 
 ## 🎯 Giới Thiệu
 
-**Hotel's Wangg Management System** - Hệ thống quản lý khách sạn toàn diện với ASP.NET Core 8.0, áp dụng Design Patterns tiên tiến và bảo mật cao.
+**Wangg's Hotel Management System** - Hệ thống quản lý khách sạn toàn diện với ASP.NET Core 8.0, áp dụng Design Patterns tiên tiến và bảo mật cao.
 
 ### ✨ Điểm Nổi Bật
 
@@ -497,11 +497,11 @@ MIT License - Tự do sử dụng cho mục đích cá nhân và thương mại.
 
 <div align="center">
 
-**Hotel's Wangg Management System**  
+**Wangg's Hotel Management System**  
 *Hệ thống quản lý khách sạn hiện đại, an toàn và dễ sử dụng*
 
 Made with ❤️ using ASP.NET Core 8.0
 
-**[⬆ Về đầu trang](#-hotels-wangg---hệ-thống-quản-lý-khách-sạn)**
+**[⬆ Về đầu trang](#-wanggs-hotel---hệ-thống-quản-lý-khách-sạn)**
 
 </div>
